@@ -1,0 +1,36 @@
+.hero-area{
+    .hero-shape{
+        position: relative;
+
+        .circle-1{
+         position: absolute;
+         top:120px;
+         left:5%;
+         animation: circle-1 6s linear 0s infinite alternate;;
+        }
+
+        .circle-2{
+            position: absolute;
+            top:400px;
+            left: 0;
+
+        }
+        .circle-3{
+            position: absolute;
+            right: 0;
+            top:380px;
+        }
+           
+    }
+
+}
+
+
+@keyframes circle-1{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform:rotate(360deg) ;
+    }
+}
